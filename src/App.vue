@@ -1,17 +1,13 @@
 <template>
-  <LearnBind msg="Hello Bind" />
-  <hr />
   <LearnConditional msg="Hello Conditional" />
 </template>
 
 <script>
-import LearnBind from "./components/LearnBind.vue";
 import LearnConditional from "./components/LearnConditional.vue";
 
 export default {
   name: "App",
   components: {
-    LearnBind,
     LearnConditional,
   },
 };
