@@ -1,14 +1,18 @@
 <template>
-  <HelloWorld msg="Hello World" />
+  <LearnBind msg="Hello Bind" />
+  <hr />
+  <LearnConditional msg="Hello Conditional" />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import LearnBind from "./components/LearnBind.vue";
+import LearnConditional from "./components/LearnConditional.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    LearnBind,
+    LearnConditional,
   },
 };
 </script>
