@@ -1,14 +1,14 @@
 <template>
-  <HelloWorld msg="Hello World" />
+  <LearnForm msg="Hello Form" />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import LearnForm from "./components/LearnForm.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    LearnForm,
   },
 };
 </script>
